@@ -1,5 +1,6 @@
 .box1{
     background-color: blue;
+    opacity: 3;
 }
 @media(max-width: 1000px){
 .title{
@@ -8,8 +9,14 @@
 .word{
     font-size: medium;
 }
+.photo{
+    width: 200px;
+    height: 200px;
+    margin: auto;
+}
 .box1{
     background-color: orange;
+    opacity: 3;
 }
 }
 @media(max-width: 700px){
@@ -21,6 +28,7 @@
     }
     .box1{
         background-color: lightyellow;
+        opacity: 3;
     }
 }
 @media(max-width: 400px) {
@@ -32,5 +40,6 @@
     }
     .box1{
         background-color: lightgreen;
+        opacity: 3;
     }
 }
